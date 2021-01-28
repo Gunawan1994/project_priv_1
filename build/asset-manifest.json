@@ -1,0 +1,42 @@
+{
+  "files": {
+    "static/js/0.a4de44b5.chunk.js": "/metronic/react/demo1/static/js/0.a4de44b5.chunk.js",
+    "static/js/0.a4de44b5.chunk.js.map": "/metronic/react/demo1/static/js/0.a4de44b5.chunk.js.map",
+    "main.css": "/metronic/react/demo1/static/css/main.9ba41e05.chunk.css",
+    "main.js": "/metronic/react/demo1/static/js/main.98e48ebe.chunk.js",
+    "main.js.map": "/metronic/react/demo1/static/js/main.98e48ebe.chunk.js.map",
+    "runtime-main.js": "/metronic/react/demo1/static/js/runtime-main.39816e91.js",
+    "runtime-main.js.map": "/metronic/react/demo1/static/js/runtime-main.39816e91.js.map",
+    "static/css/3.d2df8dfe.chunk.css": "/metronic/react/demo1/static/css/3.d2df8dfe.chunk.css",
+    "static/js/3.14245cf1.chunk.js": "/metronic/react/demo1/static/js/3.14245cf1.chunk.js",
+    "static/js/3.14245cf1.chunk.js.map": "/metronic/react/demo1/static/js/3.14245cf1.chunk.js.map",
+    "static/js/4.17653538.chunk.js": "/metronic/react/demo1/static/js/4.17653538.chunk.js",
+    "static/js/4.17653538.chunk.js.map": "/metronic/react/demo1/static/js/4.17653538.chunk.js.map",
+    "static/css/5.9e2656f4.chunk.css": "/metronic/react/demo1/static/css/5.9e2656f4.chunk.css",
+    "static/js/5.94eaec18.chunk.js": "/metronic/react/demo1/static/js/5.94eaec18.chunk.js",
+    "static/js/5.94eaec18.chunk.js.map": "/metronic/react/demo1/static/js/5.94eaec18.chunk.js.map",
+    "static/js/6.e9e23c04.chunk.js": "/metronic/react/demo1/static/js/6.e9e23c04.chunk.js",
+    "static/js/6.e9e23c04.chunk.js.map": "/metronic/react/demo1/static/js/6.e9e23c04.chunk.js.map",
+    "static/js/7.177fe8aa.chunk.js": "/metronic/react/demo1/static/js/7.177fe8aa.chunk.js",
+    "static/js/7.177fe8aa.chunk.js.map": "/metronic/react/demo1/static/js/7.177fe8aa.chunk.js.map",
+    "static/js/8.876ff628.chunk.js": "/metronic/react/demo1/static/js/8.876ff628.chunk.js",
+    "static/js/8.876ff628.chunk.js.map": "/metronic/react/demo1/static/js/8.876ff628.chunk.js.map",
+    "index.html": "/metronic/react/demo1/index.html",
+    "precache-manifest.9016280517ad548581e3574024085b73.js": "/metronic/react/demo1/precache-manifest.9016280517ad548581e3574024085b73.js",
+    "service-worker.js": "/metronic/react/demo1/service-worker.js",
+    "static/css/3.d2df8dfe.chunk.css.map": "/metronic/react/demo1/static/css/3.d2df8dfe.chunk.css.map",
+    "static/css/5.9e2656f4.chunk.css.map": "/metronic/react/demo1/static/css/5.9e2656f4.chunk.css.map",
+    "static/css/main.9ba41e05.chunk.css.map": "/metronic/react/demo1/static/css/main.9ba41e05.chunk.css.map",
+    "static/media/flaticon.css": "/metronic/react/demo1/static/media/Flaticon2.eafcbac0.ttf",
+    "static/media/ki.css": "/metronic/react/demo1/static/media/Ki.8f9a1a6c.woff",
+    "static/media/all.min.css": "/metronic/react/demo1/static/media/fa-solid-900.ec763292.svg",
+    "static/media/socicon.css": "/metronic/react/demo1/static/media/socicon.a35b6574.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39816e91.js",
+    "static/css/3.d2df8dfe.chunk.css",
+    "static/js/3.14245cf1.chunk.js",
+    "static/css/main.9ba41e05.chunk.css",
+    "static/js/main.98e48ebe.chunk.js"
+  ]
+}

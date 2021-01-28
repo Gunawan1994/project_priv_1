@@ -1,0 +1,32 @@
+# ref1: https://hub.docker.com/r/hasura/graphql-engine
+# ref2: https://hasura.io/docs/1.0/graphql/core/deployment/deployment-guides/docker.html
+version: '3.6'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    volumes:
+    - db_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: mindid
+      POSTGRES_USER: user-mindid
+      POSTGRES_PASSWORD: pass-mindid
+    container_name: postgres
+    volumes:
+      - ./scripts/db:/docker-entrypoint-initdb.d
+    ports:
+      - 5432:5432
+  graphql-engine:
+    image: hasura/graphql-engine:v1.0.0-beta.6
+    ports:
+    - "8080:8080"
+    depends_on:
+    - "postgres"
+    restart: always
+    environment:
+      HASURA_GRAPHQL_DATABASE_URL: postgres://user-mindid:pass-mindid@docker.for.win.localhost:5432/mindid
+      HASURA_GRAPHQL_ENABLE_CONSOLE: "true" # set to "false" to disable console
+      ## admin secret login hasura
+      HASURA_GRAPHQL_ADMIN_SECRET: mindid123
+volumes:
+  db_data:
